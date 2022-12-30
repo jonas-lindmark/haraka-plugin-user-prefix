@@ -1,7 +1,8 @@
 {
-  "name": "haraka-plugin-aliases",
+  "name": "haraka-plugin-user-prefix",
   "version": "1.0.1",
-  "description": "Haraka plugin that add aliases",
+  "description": "Haraka plugin to drop username prefix",
+
   "main": "index.js",
   "scripts": {
     "lint": "npx eslint *.js test",
@@ -10,19 +11,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/haraka/haraka-plugin-aliases.git"
+    "url": "git+https://github.com/jonas-lindmark/haraka-plugin-user-prefix.git"
   },
   "keywords": [
     "haraka",
     "plugin",
-    "aliases"
+    "user-prefix"
   ],
-  "author": "Haraka Team <haraka.mail@gmail.com>",
+  "author": "Jonas Lindmark <jonas@denacode.se>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/haraka/haraka-plugin-aliases/issues"
+    "url": "https://github.com/jonas-lindmark/haraka-plugin-user-prefix/issues"
   },
-  "homepage": "https://github.com/haraka/haraka-plugin-aliases#readme",
+  "homepage": "https://github.com/jonas-lindmark/haraka-plugin-user-prefix#readme",
   "dependencies": {
     "address-rfc2821": "*"
   },
